@@ -1,1 +1,2 @@
 Run docker stack deploy -c stack.yml mariadb (or docker-compose -f stack.yml up), wait for it to initialize completely, and visit http://swarm-ip:8080, http://localhost:8080, or http://host-ip:8080 (as appropriate).
+Run docker docker-compose down --rmi all -v --remove-orphans to stop and remove
