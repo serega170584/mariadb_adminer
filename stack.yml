@@ -14,9 +14,3 @@ services:
     restart: always
     ports:
       - 8080:8080
-
-  shop-backend:
-    build: ./shop-backend
-    restart: always
-    ports:
-      - 4200:4200
